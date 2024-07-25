@@ -5,7 +5,7 @@
  >= 30 >=90 Hot and Humid
  >= 30 < 90 Hot
  <30  >= 90  Cool and Humid
- <30 <90  Cool
+ <30 <90 Cool
 """
 temparature  = float(input("Enter the value of temperature in Celcius: "))
 humidity = float(input("Enter the value of humidity(%): "))
