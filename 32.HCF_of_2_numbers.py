@@ -7,6 +7,5 @@ def find_hcf(a, b):
         a, b = b, a%b
     return a
 
-num1 = int(input("Enter first number "))
 num2 = int(input("Enter last number "))
 print(find_hcf(num1, num2))
