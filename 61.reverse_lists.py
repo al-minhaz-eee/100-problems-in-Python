@@ -3,5 +3,5 @@
 """
 def reverse_list(list):
     return list[::-1]
-lst = list(map(int, input("Enter numbers: ").split(" ")))
+lst = list(input("Enter numbers: ").split(" "))
 print(reverse_list(lst))
