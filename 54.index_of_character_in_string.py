@@ -6,8 +6,6 @@ def count_index(string, ch):
     count=0
     for char in string:
         count += 1
-        if char == " ":
-            continue
         if char == ch:
             yield count-1
 
